@@ -65,7 +65,6 @@ def perform(keyword):
         mps.append(mp)
 
         perform_mp(mp['name'], item_href, main_window_handle=main_window)
-        break
 
     write_file(keyword, demjson.encode(mps), '_list_json.txt')
 
