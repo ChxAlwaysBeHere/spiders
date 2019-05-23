@@ -12,6 +12,8 @@ resources_path = os.getcwd() + "/../resources/v2/"
 
 driver = None
 
+driver_path = '***'
+
 mp_articles_regex_pattern = re.compile('var\s+?msgList\s*?=\s*?({[\s\S]+})\s*?;')
 
 
@@ -21,7 +23,7 @@ def init():
     # option.add_argument('headless')
     option.add_argument(
         'User-Agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"')
-    driver = webdriver.Chrome('/Users/chenxi/chromedriver/chromedriver', options=option)
+    driver = webdriver.Chrome(driver_path, options=option)
 
 
 def close():

@@ -1,7 +1,3 @@
-"""
-搜狗微信公众号搜索：https://weixin.sogou.com/weixin?type=1&query=%E5%BE%AE%E4%BF%A1&ie=utf8&s_from=input&_sug_=y&_sug_type_=
-"""
-
 import os
 
 import demjson

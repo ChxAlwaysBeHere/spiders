@@ -1,7 +1,3 @@
-"""
-搜狗公众号文章搜索：http://mp.weixin.qq.com/profile?src=3&timestamp=1558319409&ver=1&signature=pZq4saj68C6akulKCjQR9GdMksJszjvOKxYYlq0EymtjetlJM7h5hVtgo1W-D53sZEHBJjsL5V8tGtLgZcd5zQ==
-"""
-
 import os
 import random
 import time
