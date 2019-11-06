@@ -1,4 +1,5 @@
 import re
+import sys
 import urllib
 
 import requests
@@ -66,3 +67,11 @@ def search_book(book_name: str):
         return books[0]
     else:
         return None
+
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        print('参数不全，示例：python book_search.py book_name')
+        exit(1)
+
+    search_result = search_book(sys.argv[1])
+    print(search_result)
